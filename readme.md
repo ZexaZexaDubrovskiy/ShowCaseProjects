@@ -18,3 +18,12 @@
   - Возможность создания новых квестов.
   - Система отслеживания выполнения квестов.
   - Награды за выполнение квестов.
+
+- **Проекты для HR**:
+  - Проекты идут в порядке убывания навыков.
+  - https://github.com/ZexaZexaDubrovskiy/TestZanadieUnity3d?tab=readme-ov-file C# unity
+  - https://github.com/ZexaZexaDubrovskiy/2dPlatformer C# unity
+  - https://github.com/ZexaZexaDubrovskiy/TimeTiming C# unity
+  - https://github.com/ZexaZexaDubrovskiy/SeverstalTask python FastApi, SQL
+  - https://github.com/ZexaZexaDubrovskiy/PMS C# .Net, SQL
+  - https://github.com/ZexaZexaDubrovskiy/College PHP, CSS, HTML, JS, Laravel, SQL
