@@ -1,0 +1,950 @@
+[
+  {
+    "id": 0,
+    "description": "Убить врагов",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 50,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 1
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 100,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 500
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 200,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 3
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 500,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 2000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 1000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 5
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 5000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 3000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 1000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 6
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 3000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 5000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 5000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 8
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 10000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 7000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 25000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 9
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 50000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 10000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "KillGoal",
+          "TargetCount": 100000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 10
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 1,
+    "description": "Использовать умений",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "AbilityUseGoal",
+          "TargetCount": 100,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "AbilityUseGoal",
+          "TargetCount": 200,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 3
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 2,
+    "description": "Увеличить уровень башни",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 1,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 1
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 2,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 1
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 3,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 1
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 4,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 1
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 5,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 1
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 6,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 1
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 7,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 8,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 9,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 10,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 11,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 12,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 13,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 14,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 15,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 3
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 16,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 3
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 17,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 3
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 18,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 3
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 19,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 3
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "TowersLevelIncreasedGoal",
+          "TargetCount": 20,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 3
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 3,
+    "description": "Потратить ресурсы",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "ResourcesSpentGoal",
+          "TargetCount": 1000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 1
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "ResourcesSpentGoal",
+          "TargetCount": 5000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "ResourcesSpentGoal",
+          "TargetCount": 10000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 3
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "ResourcesSpentGoal",
+          "TargetCount": 100000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 10
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 4,
+    "description": "Убить боссов",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "BossKilledGoal",
+          "TargetCount": 1,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 3000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "BossKilledGoal",
+          "TargetCount": 10,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "BossKilledGoal",
+          "TargetCount": 100,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 10
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "BossKilledGoal",
+          "TargetCount": 1000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 100000
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 5,
+    "description": "Убить Пап",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "PapaKilledGoal",
+          "TargetCount": 1,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 1500
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "PapaKilledGoal",
+          "TargetCount": 10,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "PapaKilledGoal",
+          "TargetCount": 100,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 10
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "PapaKilledGoal",
+          "TargetCount": 1000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 100000
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 6,
+    "description": "Сделать критических ударов",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "CriticalHitsDonnedGoal",
+          "TargetCount": 1000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "CriticalHitsDonnedGoal",
+          "TargetCount": 10000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 10
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 7,
+    "description": "Завершить волн",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "WavesEndedGoal",
+          "TargetCount": 25,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 5
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "WavesEndedGoal",
+          "TargetCount": 50,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 10
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "WavesEndedGoal",
+          "TargetCount": 100,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 100000
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 8,
+    "description": "Потратить золото",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "GoldSpentGoal",
+          "TargetCount": 3000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 500
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "GoldSpentGoal",
+          "TargetCount": 10000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 1500
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "GoldSpentGoal",
+          "TargetCount": 100000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 10
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 9,
+    "description": "Потратить кристаллы",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "CrystalsSpentGoal",
+          "TargetCount": 1,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 500
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "CrystalsSpentGoal",
+          "TargetCount": 10,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 2
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "CrystalsSpentGoal",
+          "TargetCount": 50,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 5
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "CrystalsSpentGoal",
+          "TargetCount": 100,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 10
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "CrystalsSpentGoal",
+          "TargetCount": 1000,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 20
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 10,
+    "description": "Улучшить башни",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "CrystalsSpentGoal",
+          "TargetCount": 10,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 5000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "CrystalsSpentGoal",
+          "TargetCount": 50,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 1,
+          "Amount": 20
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "CrystalsSpentGoal",
+          "TargetCount": 100,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 10000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "CrystalsSpentGoal",
+          "TargetCount": 250,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 100000
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  },
+  {
+    "id": 11,
+    "description": "Улучшить рабочих",
+    "reward": {
+      "Type": 0,
+      "Amount": 0
+    },
+    "isCompleted": false,
+    "stages": [
+      {
+        "goal": {
+          "GoalType": "HelpersImprovedGoal",
+          "TargetCount": 10,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 5000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "HelpersImprovedGoal",
+          "TargetCount": 50,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 10000
+        },
+        "isCompletedStage": false
+      },
+      {
+        "goal": {
+          "GoalType": "HelpersImprovedGoal",
+          "TargetCount": 100,
+          "CurrentCount": 0
+        },
+        "reward": {
+          "Type": 0,
+          "Amount": 100000
+        },
+        "isCompletedStage": false
+      }
+    ],
+    "currentStageIndex": 0
+  }
+]
